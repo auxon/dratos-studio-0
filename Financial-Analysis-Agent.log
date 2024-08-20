@@ -1,0 +1,400 @@
+[32m2024-08-11T13:55:58.868285+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T13:55:58.879035+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T13:55:58.879035+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T13:55:58.879864+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T13:55:58.879864+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T13:55:58.880397+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T13:55:58.880397+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T13:55:58.881241+0000[0m [1mTemperature: 0.4225263439315283[0m
+[32m2024-08-11T13:55:58.881241+0000[0m [1mTemperature: 0.4225263439315283[0m
+[32m2024-08-11T13:55:59.634317+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'detail': 'Not Found'}[0m
+[32m2024-08-11T13:55:59.634317+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'detail': 'Not Found'}[0m
+[32m2024-08-11T13:55:59.665388+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'detail': 'Not Found'}[0m
+[32m2024-08-11T13:55:59.665388+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'detail': 'Not Found'}[0m
+[32m2024-08-11T13:55:59.695968+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'detail': 'Not Found'}[0m
+[32m2024-08-11T13:55:59.695968+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'detail': 'Not Found'}[0m
+[32m2024-08-11T13:55:59.696441+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T13:55:59.696441+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T13:55:59.696836+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T13:55:59.696836+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T13:55:59.697673+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T13:55:59.697673+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:00:16.583062+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:00:16.594513+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:00:16.594513+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:00:16.595042+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:00:16.595042+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:00:16.595727+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:00:16.595727+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:00:16.596660+0000[0m [1mTemperature: 0.40795412143619725[0m
+[32m2024-08-11T14:00:16.596660+0000[0m [1mTemperature: 0.40795412143619725[0m
+[32m2024-08-11T14:00:17.216665+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o-mini` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:00:17.216665+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o-mini` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:00:17.244760+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o-mini` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:00:17.244760+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o-mini` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:00:17.272679+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o-mini` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:00:17.272679+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o-mini` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:00:17.273529+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:00:17.273529+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:00:17.274224+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:00:17.274224+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:00:17.275092+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:00:17.275092+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:01:52.765354+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:01:52.778735+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:01:52.778735+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:01:52.779763+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:01:52.779763+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:01:52.780441+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:01:52.780441+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:01:52.785172+0000[0m [1mTemperature: 0.8141662144438719[0m
+[32m2024-08-11T14:01:52.785172+0000[0m [1mTemperature: 0.8141662144438719[0m
+[32m2024-08-11T14:01:53.440460+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Llama-3-7b-chat-hf` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:01:53.440460+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Llama-3-7b-chat-hf` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:01:53.471775+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Llama-3-7b-chat-hf` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:01:53.471775+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Llama-3-7b-chat-hf` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:01:53.499292+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Llama-3-7b-chat-hf` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:01:53.499292+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Llama-3-7b-chat-hf` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:01:53.499746+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:01:53.499746+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:01:53.500417+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:01:53.500417+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:01:53.500909+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:01:53.500909+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:15:39.016102+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:15:39.026533+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:15:39.026533+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:15:39.027069+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:15:39.027069+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:15:39.027717+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:15:39.027717+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:15:39.028222+0000[0m [1mTemperature: 0.7827197046661463[0m
+[32m2024-08-11T14:15:39.028222+0000[0m [1mTemperature: 0.7827197046661463[0m
+[32m2024-08-11T14:15:39.756834+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:15:39.756834+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:15:39.791529+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:15:39.791529+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:15:39.847279+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:15:39.847279+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:15:39.848179+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:15:39.848179+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:15:39.848748+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:15:39.848748+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:15:39.857362+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:15:39.857362+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:24:48.535507+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:24:48.546046+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:24:48.546046+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:24:48.546846+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:24:48.546846+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:24:48.547561+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:24:48.547561+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:24:48.548400+0000[0m [1mTemperature: 0.7906319031555584[0m
+[32m2024-08-11T14:24:48.548400+0000[0m [1mTemperature: 0.7906319031555584[0m
+[32m2024-08-11T14:24:49.144591+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:24:49.144591+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:24:49.178601+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:24:49.178601+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:24:49.211367+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:24:49.211367+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:24:49.215878+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:24:49.215878+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:24:49.216746+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:24:49.216746+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:24:49.217493+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:24:49.217493+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:30:28.104145+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:30:28.115168+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:30:28.115168+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:30:28.115766+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:30:28.115766+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:30:28.116392+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:30:28.116392+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:30:28.117232+0000[0m [1mTemperature: 0.9917649817779954[0m
+[32m2024-08-11T14:30:28.117232+0000[0m [1mTemperature: 0.9917649817779954[0m
+[32m2024-08-11T14:30:28.835741+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:30:28.835741+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:30:28.860302+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:30:28.860302+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:30:28.885588+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:30:28.885588+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `meta-llama/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:30:28.886344+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:30:28.886344+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:30:28.886965+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:30:28.886965+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:30:28.887726+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:30:28.887726+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:53:37.214993+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:53:37.225416+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:53:37.225416+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:53:37.226098+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:53:37.226098+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:53:37.226564+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:53:37.226564+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:53:37.227497+0000[0m [1mTemperature: 0.8237692383141817[0m
+[32m2024-08-11T14:53:37.227497+0000[0m [1mTemperature: 0.8237692383141817[0m
+[32m2024-08-11T14:53:37.817448+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:53:37.817448+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:53:37.844971+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:53:37.844971+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:53:37.871386+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:53:37.871386+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:53:37.872348+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:53:37.872348+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:53:37.873001+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:53:37.873001+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:53:37.873784+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:53:37.873784+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:54:35.559363+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:54:35.570308+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:54:35.570308+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:54:35.570758+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:54:35.570758+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:54:35.571383+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:54:35.571383+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:54:35.572050+0000[0m [1mTemperature: 0.6447634312504918[0m
+[32m2024-08-11T14:54:35.572050+0000[0m [1mTemperature: 0.6447634312504918[0m
+[32m2024-08-11T14:54:36.186309+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:54:36.186309+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:54:36.215559+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:54:36.215559+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:54:36.239650+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:54:36.239650+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:54:36.240401+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:54:36.240401+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:54:36.240974+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:54:36.240974+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:54:36.241701+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:54:36.241701+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:58:46.940107+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:58:46.950820+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:58:46.950820+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T14:58:46.951277+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:58:46.951277+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T14:58:46.952088+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:58:46.952088+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T14:58:46.952802+0000[0m [1mTemperature: 0.5054998216275365[0m
+[32m2024-08-11T14:58:46.952802+0000[0m [1mTemperature: 0.5054998216275365[0m
+[32m2024-08-11T14:58:47.557674+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:58:47.557674+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:58:47.583173+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:58:47.583173+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:58:47.607872+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:58:47.607872+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T14:58:47.608496+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:58:47.608496+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T14:58:47.609257+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:58:47.609257+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T14:58:47.609964+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T14:58:47.609964+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:08:43.598965+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:08:43.609688+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:08:43.609688+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:08:43.610522+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:08:43.610522+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:08:43.610862+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:08:43.610862+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:08:43.611863+0000[0m [1mTemperature: 0.0342714869673969[0m
+[32m2024-08-11T15:08:43.611863+0000[0m [1mTemperature: 0.0342714869673969[0m
+[32m2024-08-11T15:08:44.248034+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T15:08:44.248034+0000[0m [31m[1mAttempt 1: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T15:08:44.286668+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T15:08:44.286668+0000[0m [31m[1mAttempt 2: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T15:08:44.323778+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T15:08:44.323778+0000[0m [31m[1mAttempt 3: Error generating response: Error code: 404 - {'object': 'error', 'message': 'The model `NousResearch/Meta-Llama-3-8B-Instruct` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}[0m
+[32m2024-08-11T15:08:44.324598+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:08:44.324598+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:08:44.325334+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:08:44.325334+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:08:44.326041+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:08:44.326041+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:13:44.979888+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:13:44.998210+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:13:44.998210+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:13:44.999195+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:13:44.999195+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:13:44.999950+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:13:44.999950+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:13:45.000873+0000[0m [1mTemperature: 0.9497992177965456[0m
+[32m2024-08-11T15:13:45.000873+0000[0m [1mTemperature: 0.9497992177965456[0m
+[32m2024-08-11T15:14:03.760646+0000[0m [31m[1mAttempt 1: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:14:03.760646+0000[0m [31m[1mAttempt 1: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:14:04.410702+0000[0m [31m[1mAttempt 2: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:14:04.410702+0000[0m [31m[1mAttempt 2: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:14:04.470443+0000[0m [31m[1mAttempt 3: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:14:04.470443+0000[0m [31m[1mAttempt 3: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:14:04.472482+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:14:04.472482+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:14:04.474062+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:14:04.474062+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:14:04.476683+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:14:04.476683+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:14:35.832930+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:14:35.845916+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:14:35.845916+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:14:35.846442+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:14:35.846442+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:14:35.846811+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:14:35.846811+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:14:35.847746+0000[0m [1mTemperature: 0.3672084791920831[0m
+[32m2024-08-11T15:14:35.847746+0000[0m [1mTemperature: 0.3672084791920831[0m
+[32m2024-08-11T15:14:39.053120+0000[0m [31m[1mAttempt 1: Error generating response: Connection error.[0m
+[32m2024-08-11T15:14:39.053120+0000[0m [31m[1mAttempt 1: Error generating response: Connection error.[0m
+[32m2024-08-11T15:14:41.782831+0000[0m [31m[1mAttempt 2: Error generating response: Connection error.[0m
+[32m2024-08-11T15:14:41.782831+0000[0m [31m[1mAttempt 2: Error generating response: Connection error.[0m
+[32m2024-08-11T15:14:44.415293+0000[0m [31m[1mAttempt 3: Error generating response: Connection error.[0m
+[32m2024-08-11T15:14:44.415293+0000[0m [31m[1mAttempt 3: Error generating response: Connection error.[0m
+[32m2024-08-11T15:14:44.417479+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:14:44.417479+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:14:44.418660+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:14:44.418660+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:14:44.419797+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:14:44.419797+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:17:11.530052+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:17:11.546145+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:17:11.546145+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:17:11.546932+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:17:11.546932+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:17:11.547480+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:17:11.547480+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:17:11.548186+0000[0m [1mTemperature: 0.7340701499858285[0m
+[32m2024-08-11T15:17:11.548186+0000[0m [1mTemperature: 0.7340701499858285[0m
+[32m2024-08-11T15:18:02.306007+0000[0m [31m[1mAttempt 1: Error generating response: Connection error.[0m
+[32m2024-08-11T15:18:02.306007+0000[0m [31m[1mAttempt 1: Error generating response: Connection error.[0m
+[32m2024-08-11T15:18:04.913405+0000[0m [31m[1mAttempt 2: Error generating response: Connection error.[0m
+[32m2024-08-11T15:18:04.913405+0000[0m [31m[1mAttempt 2: Error generating response: Connection error.[0m
+[32m2024-08-11T15:18:07.565188+0000[0m [31m[1mAttempt 3: Error generating response: Connection error.[0m
+[32m2024-08-11T15:18:07.565188+0000[0m [31m[1mAttempt 3: Error generating response: Connection error.[0m
+[32m2024-08-11T15:18:07.565959+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:18:07.565959+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:18:07.567189+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:18:07.567189+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:18:07.569096+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:18:07.569096+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:22:02.266063+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:22:02.308442+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:22:02.308442+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:22:02.311139+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:22:02.311139+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:22:02.312550+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:22:02.312550+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:22:02.315711+0000[0m [1mTemperature: 0.9725181898849329[0m
+[32m2024-08-11T15:22:02.315711+0000[0m [1mTemperature: 0.9725181898849329[0m
+[32m2024-08-11T15:23:04.165080+0000[0m [31m[1mAttempt 1: Error generating response: Connection error.[0m
+[32m2024-08-11T15:23:04.165080+0000[0m [31m[1mAttempt 1: Error generating response: Connection error.[0m
+[32m2024-08-11T15:23:07.248305+0000[0m [31m[1mAttempt 2: Error generating response: Connection error.[0m
+[32m2024-08-11T15:23:07.248305+0000[0m [31m[1mAttempt 2: Error generating response: Connection error.[0m
+[32m2024-08-11T15:23:10.281068+0000[0m [31m[1mAttempt 3: Error generating response: Connection error.[0m
+[32m2024-08-11T15:23:10.281068+0000[0m [31m[1mAttempt 3: Error generating response: Connection error.[0m
+[32m2024-08-11T15:23:10.282747+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:23:10.282747+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:23:10.284522+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:23:10.284522+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:23:10.287480+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:23:10.287480+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:26:47.897118+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:26:47.909136+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:26:47.909136+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:26:47.909772+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:26:47.909772+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:26:47.910094+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:26:47.910094+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:26:48.452543+0000[0m [31m[1mAttempt 1: Error generating response: Completions.create() got an unexpected keyword argument 'streaming_on'[0m
+[32m2024-08-11T15:26:48.452543+0000[0m [31m[1mAttempt 1: Error generating response: Completions.create() got an unexpected keyword argument 'streaming_on'[0m
+[32m2024-08-11T15:26:48.463236+0000[0m [31m[1mAttempt 2: Error generating response: Completions.create() got an unexpected keyword argument 'streaming_on'[0m
+[32m2024-08-11T15:26:48.463236+0000[0m [31m[1mAttempt 2: Error generating response: Completions.create() got an unexpected keyword argument 'streaming_on'[0m
+[32m2024-08-11T15:26:48.475488+0000[0m [31m[1mAttempt 3: Error generating response: Completions.create() got an unexpected keyword argument 'streaming_on'[0m
+[32m2024-08-11T15:26:48.475488+0000[0m [31m[1mAttempt 3: Error generating response: Completions.create() got an unexpected keyword argument 'streaming_on'[0m
+[32m2024-08-11T15:26:48.476185+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:26:48.476185+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:26:48.476697+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:26:48.476697+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:26:48.477088+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:26:48.477088+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:28:10.879065+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:28:10.891845+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:28:10.891845+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:28:10.892895+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:28:10.892895+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:28:10.893476+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:28:10.893476+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:28:10.894159+0000[0m [1mTemperature: 0.8098789090928286[0m
+[32m2024-08-11T15:28:10.894159+0000[0m [1mTemperature: 0.8098789090928286[0m
+[32m2024-08-11T15:28:12.004739+0000[0m [31m[1mAttempt 1: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:28:12.004739+0000[0m [31m[1mAttempt 1: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:28:12.048541+0000[0m [31m[1mAttempt 2: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:28:12.048541+0000[0m [31m[1mAttempt 2: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:28:12.087022+0000[0m [31m[1mAttempt 3: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:28:12.087022+0000[0m [31m[1mAttempt 3: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:28:12.088511+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:28:12.088511+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:28:12.089184+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:28:12.089184+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:28:12.089929+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:28:12.089929+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:29:00.477209+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:29:00.488693+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:29:00.488693+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T15:29:00.489271+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:29:00.489271+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T15:29:00.489614+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:29:00.489614+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T15:29:00.490242+0000[0m [1mTemperature: 0.16147123029039478[0m
+[32m2024-08-11T15:29:00.490242+0000[0m [1mTemperature: 0.16147123029039478[0m
+[32m2024-08-11T15:29:01.096885+0000[0m [31m[1mAttempt 1: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:29:01.096885+0000[0m [31m[1mAttempt 1: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:29:01.133010+0000[0m [31m[1mAttempt 2: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:29:01.133010+0000[0m [31m[1mAttempt 2: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:29:01.171397+0000[0m [31m[1mAttempt 3: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:29:01.171397+0000[0m [31m[1mAttempt 3: Error generating response: No generations found in stream.[0m
+[32m2024-08-11T15:29:01.173648+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:29:01.173648+0000[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-08-11T15:29:01.174485+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:29:01.174485+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T15:29:01.174943+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T15:29:01.174943+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T19:58:18.396812+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T19:58:18.408777+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T19:58:18.408777+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T19:58:18.409348+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T19:58:18.409348+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T19:58:18.409790+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T19:58:18.409790+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T19:58:18.410381+0000[0m [1mTemperature: 0.17722022648287894[0m
+[32m2024-08-11T19:58:18.410381+0000[0m [1mTemperature: 0.17722022648287894[0m
+[32m2024-08-11T19:58:47.945963+0000[0m [1mTemperature: 0.08120613247125874[0m
+[32m2024-08-11T19:58:47.945963+0000[0m [1mTemperature: 0.08120613247125874[0m
+[32m2024-08-11T19:59:11.771984+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T19:59:11.771984+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T19:59:11.772815+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T19:59:11.772815+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T20:02:01.224185+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:02:01.236433+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:02:01.236433+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:02:01.236999+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T20:02:01.236999+0000[0m [1mAutonomous Agent Activated.[0m
+[32m2024-08-11T20:02:01.237464+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T20:02:01.237464+0000[0m [1mAll systems operational. Executing task...[0m
+[32m2024-08-11T20:02:01.238034+0000[0m [1mTemperature: 0.06299432369596125[0m
+[32m2024-08-11T20:02:01.238034+0000[0m [1mTemperature: 0.06299432369596125[0m
+[32m2024-08-11T20:02:29.501834+0000[0m [1mTemperature: 0.7004691976516877[0m
+[32m2024-08-11T20:02:29.501834+0000[0m [1mTemperature: 0.7004691976516877[0m
+[32m2024-08-11T20:03:04.049238+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T20:03:04.049238+0000[0m [1mAutosaving agent state.[0m
+[32m2024-08-11T20:03:04.050193+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T20:03:04.050193+0000[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-08-11T20:04:53.153665+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:04:53.165750+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:04:53.165750+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:06:40.906782+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:06:40.918693+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:06:40.918693+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:10:39.090033+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:10:39.101931+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:10:39.101931+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:11:24.149131+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:11:24.161186+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:11:24.161186+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:21:36.359369+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:21:36.371529+0000[0m [1mLogger initialized and artifacts directory set up.[0m
+[32m2024-08-11T20:21:36.371529+0000[0m [1mLogger initialized and artifacts directory set up.[0m

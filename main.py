@@ -1,7 +1,7 @@
 import os
 import asyncio
 from swarms import Agent, OpenAIChat
-from swarms.prompts.finance_agent_sys_prompt import (
+from swarms.prompts.conversational_RAG import (
     FINANCIAL_AGENT_SYS_PROMPT,
 )
 
@@ -16,21 +16,19 @@ model = OpenAIChat(
 
 # Initialize the agent
 agent = Agent(
-    agent_name="Financial-Analysis-Agent",
+    agent_name="Chatbot Agent",
     system_prompt=FINANCIAL_AGENT_SYS_PROMPT,
     llm=model,
     max_loops=2,
     autosave=True,
-    # dynamic_temperature_enabled=True,
     dashboard=False,
     verbose=True,
     streaming_on=True,
-    # interactive=True, # Set to False to disable interactive mode
     dynamic_temperature_enabled=False,
     saved_state_path="finance_agent.json",
     # tools=[#Add your functions here# ],
     # stopping_token="Stop!",
-    # interactive=True,
+    interactive=True,
     # docs_folder="docs", # Enter your folder name
     # pdf_path="docs/finance_agent.pdf",
     # sop="Calculate the profit for a company.",

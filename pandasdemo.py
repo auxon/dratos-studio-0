@@ -1,8 +1,9 @@
 """ Dratos.com PandasAI Data Analysis Demo """
 from pandasai.llm.local_llm import LocalLLM
-from pandasai import SmartDataFrame
+from pandasai import SmartDataframe
 import streamlit as st
 import pandas as pd
+import re
 
 model = LocalLLM(
     api_base="http://localhost:8000/v1",
@@ -16,11 +17,16 @@ if uploaded_file is not None:
     data = pd.read_csv(uploaded_file)
     st.write(data.head(3))
 
-    df = SmartDataFrame(data, config={"llm": model})
+    df = SmartDataframe(data, config={"llm": model})
     prompt = st.text_area("Enter your prompt:")
 
     if st.button("Generate"):
         if prompt:
             with st.spinner("Generating response..."):
-                st.write(df.chat(prompt))
-
+                response = df.chat(prompt)
+                st.write(response)
+                # if response contains an image, display it
+                match = re.search(r'.*\.png$', response)
+                if match:
+                    file_path = match.group(0)
+                    st.image(file_path)

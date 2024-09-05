@@ -1,0 +1,559 @@
+{
+  "last_node_id": 29,
+  "last_link_id": 25,
+  "nodes": [
+    {
+      "id": 3,
+      "type": "Griptape Agent Config: Environment Variables",
+      "pos": {
+        "0": 65,
+        "1": 95,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 369.6000061035156,
+        "1": 231.89552307128906
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "ENV",
+          "type": "ENV",
+          "links": [
+            17
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Agent Config: Environment Variables"
+      },
+      "widgets_values": [
+        "OPENAI_API_KEY=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"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "Griptape Agent Config: OpenAI",
+      "pos": {
+        "0": 536,
+        "1": 55,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 365.4000244140625,
+        "1": 226
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "env",
+          "type": "ENV",
+          "link": 17
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONFIG",
+          "type": "CONFIG",
+          "links": [
+            19
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Agent Config: OpenAI"
+      },
+      "widgets_values": [
+        "gpt-4o-mini",
+        0.7000000000000001,
+        2048,
+        "fixed",
+        10,
+        true,
+        -1,
+        "OPENAI_API_KEY"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "Griptape Display: Text",
+      "pos": {
+        "0": 1664,
+        "1": 361,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        400,
+        1160
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "INPUT",
+          "type": "STRING",
+          "link": 22,
+          "widget": {
+            "name": "INPUT"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "OUTPUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Display: Text"
+      },
+      "widgets_values": [
+        "",
+        "It seems that I am currently unable to transcribe the audio file due to a quota limit. Unfortunately, I cannot provide the transcription at this moment. \n\nIf you have an alternative audio file or need assistance with something else, please let me know!"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "Griptape Tool: Audio Transcription",
+      "pos": {
+        "0": 555,
+        "1": 665,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 428.4000244140625,
+        "1": 58
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "driver",
+          "type": "DRIVER",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "TOOL",
+          "type": "TOOL_LIST",
+          "links": [
+            20
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Tool: Audio Transcription"
+      },
+      "widgets_values": [
+        true
+      ]
+    },
+    {
+      "id": 17,
+      "type": "Griptape Audio Transcription Driver: OpenAI",
+      "pos": {
+        "0": 557,
+        "1": 501,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        361.20001220703125,
+        84.89795213683078
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "DRIVER",
+          "type": "AUDIO_TRANSCRIPTION_DRIVER",
+          "links": [
+            23
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Audio Transcription Driver: OpenAI"
+      },
+      "widgets_values": [
+        "whisper-1",
+        "OPENAI_API_KEY"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "Griptape Load: Audio",
+      "pos": {
+        "0": 692,
+        "1": 320,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 210,
+        "1": 102
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO_PATH",
+          "type": "STRING",
+          "links": [
+            21
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            24
+          ],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Load: Audio"
+      },
+      "widgets_values": [
+        "Fremont Blvd.mp3",
+        "image"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "Griptape Run: Audio Transcription",
+      "pos": {
+        "0": 1205,
+        "1": 116,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        415.8000183105469,
+        98
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 24
+        },
+        {
+          "name": "driver",
+          "type": "AUDIO_TRANSCRIPTION_DRIVER",
+          "link": 23
+        },
+        {
+          "name": "config",
+          "type": "AGENT",
+          "link": null
+        },
+        {
+          "name": "audio_filepath",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "audio_filepath"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "OUTPUT",
+          "type": "STRING",
+          "links": [
+            25
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Run: Audio Transcription"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 29,
+      "type": "Griptape Display: Text",
+      "pos": {
+        "0": 1748,
+        "1": 50,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "INPUT",
+          "type": "STRING",
+          "link": 25,
+          "widget": {
+            "name": "INPUT"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "OUTPUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Display: Text"
+      },
+      "widgets_values": [
+        "",
+        "This is a test of the audio transcription pipeline that we're trying to build here in Dredos. The rain in Spain stays mainly on the plane."
+      ]
+    },
+    {
+      "id": 26,
+      "type": "Griptape Create: Agent",
+      "pos": {
+        "0": 1216,
+        "1": 419,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        400,
+        200
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "agent",
+          "type": "AGENT",
+          "link": null
+        },
+        {
+          "name": "config",
+          "type": "CONFIG",
+          "link": 19
+        },
+        {
+          "name": "tools",
+          "type": "TOOL_LIST",
+          "link": 20
+        },
+        {
+          "name": "rulesets",
+          "type": "RULESET",
+          "link": null
+        },
+        {
+          "name": "input_string",
+          "type": "STRING",
+          "link": 21,
+          "widget": {
+            "name": "input_string"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "OUTPUT",
+          "type": "STRING",
+          "links": [
+            22
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "AGENT",
+          "type": "AGENT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Create: Agent"
+      },
+      "widgets_values": [
+        "",
+        "Hey what does this audio say?"
+      ]
+    }
+  ],
+  "links": [
+    [
+      17,
+      3,
+      0,
+      24,
+      0,
+      "ENV"
+    ],
+    [
+      19,
+      24,
+      0,
+      26,
+      1,
+      "CONFIG"
+    ],
+    [
+      20,
+      27,
+      0,
+      26,
+      2,
+      "TOOL_LIST"
+    ],
+    [
+      21,
+      20,
+      0,
+      26,
+      4,
+      "STRING"
+    ],
+    [
+      22,
+      26,
+      0,
+      25,
+      0,
+      "STRING"
+    ],
+    [
+      23,
+      17,
+      0,
+      28,
+      1,
+      "AUDIO_TRANSCRIPTION_DRIVER"
+    ],
+    [
+      24,
+      20,
+      1,
+      28,
+      0,
+      "AUDIO"
+    ],
+    [
+      25,
+      28,
+      0,
+      29,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.6727499949325682,
+      "offset": [
+        -16.752896426585153,
+        192.2332767186855
+      ]
+    }
+  },
+  "version": 0.4
+}

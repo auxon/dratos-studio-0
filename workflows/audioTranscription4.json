@@ -1,0 +1,258 @@
+{
+  "last_node_id": 29,
+  "last_link_id": 26,
+  "nodes": [
+    {
+      "id": 20,
+      "type": "Griptape Load: Audio",
+      "pos": {
+        "0": 527,
+        "1": 84,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 210,
+        "1": 102
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO_PATH",
+          "type": "STRING",
+          "links": [
+            26
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            24
+          ],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Load: Audio"
+      },
+      "widgets_values": [
+        "Dreamcrusher2 (Mastered with Aurora at 50pct).wav",
+        "image"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "Griptape Audio Transcription Driver: OpenAI",
+      "pos": {
+        "0": 519,
+        "1": 258,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 361.20001220703125,
+        "1": 84.89794921875
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "DRIVER",
+          "type": "AUDIO_TRANSCRIPTION_DRIVER",
+          "links": [
+            23
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Audio Transcription Driver: OpenAI"
+      },
+      "widgets_values": [
+        "whisper-1",
+        "sk-svcacct-33f-lWy_x2MnYFOYM8Ap5HWrQ9Z5x8CPEqdFWB0cLn9Cp3Cngv7RsTEZ3NaN5auT3BlbkFJiUoLn2OgkZeFO279y4B8bgZm9cKr678PsdVZB4wR7CHM6ugJi7oTxzCU55l6NAA"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "Griptape Run: Audio Transcription",
+      "pos": {
+        "0": 955,
+        "1": 123,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 415.8000183105469,
+        "1": 98
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 24
+        },
+        {
+          "name": "driver",
+          "type": "AUDIO_TRANSCRIPTION_DRIVER",
+          "link": 23
+        },
+        {
+          "name": "config",
+          "type": "AGENT",
+          "link": null
+        },
+        {
+          "name": "audio_filepath",
+          "type": "STRING",
+          "link": 26,
+          "widget": {
+            "name": "audio_filepath"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "OUTPUT",
+          "type": "STRING",
+          "links": [
+            25
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Run: Audio Transcription"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 29,
+      "type": "Griptape Display: Text",
+      "pos": {
+        "0": 1491,
+        "1": 105,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "INPUT",
+          "type": "STRING",
+          "link": 25,
+          "widget": {
+            "name": "INPUT"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "OUTPUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Display: Text"
+      },
+      "widgets_values": [
+        "",
+        "In the shadows, lurking deep In the shadows, lurking deep A specter in my dreams, it creeps With hands of stone and heart so cold It tears apart my hope so bold Your dream crusher tearing me apart A silent whisper in the dark Your dream crusher tearing me apart A silent whisper in the dark Your dream crusher, can't you see What you take when you take from me Visions of what could have been Drowned in noise, unseen, unscreened A path once clear, now overgrown In your wake, nothing's left but bone Thanks for watching!"
+      ]
+    }
+  ],
+  "links": [
+    [
+      23,
+      17,
+      0,
+      28,
+      1,
+      "AUDIO_TRANSCRIPTION_DRIVER"
+    ],
+    [
+      24,
+      20,
+      1,
+      28,
+      0,
+      "AUDIO"
+    ],
+    [
+      25,
+      28,
+      0,
+      29,
+      0,
+      "STRING"
+    ],
+    [
+      26,
+      20,
+      0,
+      28,
+      3,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.6727499949325636,
+      "offset": [
+        -255.66072516249,
+        269.97413546771145
+      ]
+    }
+  },
+  "version": 0.4
+}

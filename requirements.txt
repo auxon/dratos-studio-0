@@ -1,9 +1,3 @@
-asyncio
-os
-langchain
-pydantic
-tiktoken
-dotenv
-fastapi
-huggingface_hub
-langserve[all]
+pandas
+pandasai
+streamlit

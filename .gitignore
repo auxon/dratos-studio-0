@@ -26,3 +26,4 @@ Finanical-Analysis-Agent.log
 .wget-hsts
 .env
 .venv
+chatbot/server/__pycache__/server.cpython-310.pyc

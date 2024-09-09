@@ -120,8 +120,6 @@ async def create_chat(
         api_key=openai_api_key,
         base_url=openai_api_base,
         model=model_name,
-        maxlength=max_length,
-        tokenlimit=token_limit,
         verbose=True,
         streaming=True,
     )

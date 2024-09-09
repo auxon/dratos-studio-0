@@ -1,3 +1,4 @@
+.bun
 .bash_history
 .cargo
 .ccache
@@ -24,3 +25,4 @@ Finanical-Analysis-Agent.log
 .viminfo
 .wget-hsts
 .env
+.venv

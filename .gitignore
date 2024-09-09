@@ -27,4 +27,7 @@ Finanical-Analysis-Agent.log
 .env
 .venv
 chatbot/server/__pycache__
+ComfyUI
+sdfx
+alpha
 
